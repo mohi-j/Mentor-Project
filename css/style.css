@@ -10,13 +10,15 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #000; }
+  color: #000;
+  scroll-behavior: smooth; }
 
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-  height: 100vh; }
+  height: 100vh;
+  width: 100%; }
 
 ul,
 ol {
@@ -42,7 +44,7 @@ h6 {
   transition: 0.3s;
   z-index: 999;
   height: auto;
-  background: rgba(29, 4, 29, 0.9); }
+  background: #330033; }
   .header .header-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -147,7 +149,7 @@ nav ul li .dropdown-toggle:hover .sub {
   padding: 0 5px;
   margin: auto;
   font-size: smaller;
-  color: rgba(29, 4, 29, 0.9); }
+  color: #fff; }
 
 .sub.active {
   display: block; }
@@ -751,24 +753,28 @@ hr {
       font-weight: 700;
       padding: 20px; }
 
-.footers form input {
-  margin-top: 20px; }
-  .footers form input [type="email"] {
+.footers form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative; }
+  .footers form input {
+    margin-top: 20px;
     border: 1px solid #868282;
-    border-radius: 15px;
-    width: 50%;
+    border-radius: 5px;
+    width: 70%;
     height: 40px;
-    padding: 0 8px;
+    padding: 5px 10px;
     outline: none; }
-  .footers form input [type="submit"] {
+  .footers form [type="submit"] {
     position: absolute;
     height: 40px;
-    width: 10%;
+    width: 20%;
     border: 1px solid #868282;
     outline: none;
-    border-radius: 15px;
-    padding: 0 8px;
-    background: #3ac162;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background: #ffcc00;
     cursor: pointer; }
 
 .footer-bottom {

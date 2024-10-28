@@ -35,25 +35,28 @@
     }
   }
 }
-.footers form input {
+.footers form{
+  align-items: center;
+  position: relative;
+
+& input {
   margin-top: 20px;
-  & [type="email"] {
     border: 1px solid rgb(134, 130, 130);
-    border-radius: 15px;
-    width: 50%;
+    border-radius: 5px;
+    width: 70%;
     height: 40px;
-    padding: 0 8px;
+    padding: 5px 10px;
     outline: none;
-  }
+}
   & [type="submit"] {
     position: absolute;
     height: 40px;
-    width: 10%;
+    width: 20%;
     border: 1px solid rgb(134, 130, 130);
     outline: none;
-    border-radius: 15px;
-    padding: 0 8px;
-    background: #3ac162;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background:rgb(255, 204, 0);
     cursor: pointer;
   }
 }

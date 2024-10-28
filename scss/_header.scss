@@ -1,11 +1,4 @@
-$bg-color: rgba(29, 4, 29, 0.9);
-$color: #fff;
-$bg-btn: rgb(255, 204, 0);
-$bg-btn-a-color: rgb(51, 0, 51);
-// =========HOVER BUTTON===
-$bg-btn-h: rgb(255, 204, 0);
-$btn-a-color-h: rgb(51, 0, 51);
-$bg-base-color: rgb(51, 0, 51);
+
 
 // =========Design Header
 
@@ -16,7 +9,7 @@ $bg-base-color: rgb(51, 0, 51);
   transition: 0.3s;
   z-index: 999;
   height: auto;
-  background: $bg-color;
+  background: $bg-base-color;
 
   & .header-container {
     display: flex;
